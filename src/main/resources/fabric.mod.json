@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "twitchchaos",
+  "version": "${version}",
+  "name": "Twitch Chaos",
+  "description": "Verbindet Minecraft mit Twitch: Follows, Subs, Bits und Raids loesen echte Chaos-Events im Spiel aus. Funktioniert auch ohne Twitch.",
+  "authors": ["Twitch Chaos Team"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.twitchchaos.TwitchChaosMod"],
+    "client": ["dev.twitchchaos.client.TwitchChaosClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
